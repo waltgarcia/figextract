@@ -1,9 +1,5 @@
 # figextract
-A python script to extract high quality figures from papers
-
-# PDF Image Extractor
-
-A simple Python script to extract images from a PDF file.
+A simple Python script to extract high quality images from a PDF file.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -36,20 +32,21 @@ Install the required dependencies using the following command:
 
 ```bash
 pip install pymupdf Pillow
-Usage
+
+### Usage
 Run the script from the terminal using the following command:
 
-bash
-Copy code
+
 python3 picextract.py pdf_path [--output_folder OUTPUT_FOLDER] [--image_format {JPEG,PNG}] [--quality QUALITY]
 Replace pdf_path with the path to your PDF file. The optional arguments can be used to customize the extraction process.
 
-Command-line Arguments
+### Command-line Arguments
 pdf_path: Path to the input PDF file.
 --output_folder OUTPUT_FOLDER: Output folder for extracted images. (default: "output")
 --image_format {JPEG,PNG}: Output image format. (default: "JPEG")
 --quality QUALITY: Image quality for JPEG format (1-95). (default: 95)
-Examples
+
+### Examples
 Extract images from a PDF file with default settings:
 
 bash
@@ -63,5 +60,5 @@ python3 picextract.py path/to/your/Paper.pdf --output_folder extracted_images --
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
-License
+### License
 This project is licensed under the MIT License.
