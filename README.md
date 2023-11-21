@@ -42,7 +42,7 @@ python3 figextract.py pdf_path [--output_folder OUTPUT_FOLDER] [--image_format {
 Replace pdf_path with the path to your PDF file. The optional arguments can be used to customize the extraction process.
 
 ### Command-line Arguments
-pdf_path: Path to the input PDF file.
+- pdf_path: Path to the input PDF file.
 - output_folder OUTPUT_FOLDER: Output folder for extracted images. (default: "output")
 - image_format {JPEG,PNG}: Output image format. (default: "JPEG")
 - quality QUALITY: Image quality for JPEG format (1-95). (default: 95)
