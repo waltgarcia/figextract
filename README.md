@@ -43,9 +43,9 @@ Replace pdf_path with the path to your PDF file. The optional arguments can be u
 
 ### Command-line Arguments
 pdf_path: Path to the input PDF file.
---output_folder OUTPUT_FOLDER: Output folder for extracted images. (default: "output")
---image_format {JPEG,PNG}: Output image format. (default: "JPEG")
---quality QUALITY: Image quality for JPEG format (1-95). (default: 95)
+- output_folder OUTPUT_FOLDER: Output folder for extracted images. (default: "output")
+- image_format {JPEG,PNG}: Output image format. (default: "JPEG")
+- quality QUALITY: Image quality for JPEG format (1-95). (default: 95)
 
 ### Examples
 Extract images from a PDF file with default settings:
