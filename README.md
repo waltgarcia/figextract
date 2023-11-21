@@ -32,12 +32,13 @@ Install the required dependencies using the following command:
 
 ```bash
 pip install pymupdf Pillow
+```
 
 ### Usage
 Run the script from the terminal using the following command:
-
-
+```
 python3 picextract.py pdf_path [--output_folder OUTPUT_FOLDER] [--image_format {JPEG,PNG}] [--quality QUALITY]
+```
 Replace pdf_path with the path to your PDF file. The optional arguments can be used to customize the extraction process.
 
 ### Command-line Arguments
@@ -48,16 +49,16 @@ pdf_path: Path to the input PDF file.
 
 ### Examples
 Extract images from a PDF file with default settings:
-
-bash
-Copy code
+```
 python3 picextract.py path/to/your/Paper.pdf
-Customize the output folder, image format, and quality:
+```
 
-bash
-Copy code
+Customize the output folder, image format, and quality:
+```
 python3 picextract.py path/to/your/Paper.pdf --output_folder extracted_images --image_format PNG --quality 90
-Contributing
+```
+
+### Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 ### License
