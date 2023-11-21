@@ -57,6 +57,8 @@ Customize the output folder, image format, and quality:
 ```
 python3 figextract.py path/to/your/Paper.pdf --output_folder extracted_images --image_format PNG --quality 90
 ```
+## Run it on Colab! 
+If you want to test the script on a different environment, you can use it on [collab before installing it.]([url](https://colab.research.google.com/drive/1LIlktO0qAZxQHr8OW3kj_dqGScJpiDJQ?usp=sharing))
 
 ### Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
